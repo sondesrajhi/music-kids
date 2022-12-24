@@ -1,0 +1,147 @@
+ 
+ body{
+     background-image: url("https://img.freepik.com/photos-gratuite/fond-couleur-holi-fond-blanc_24972-874.jpg?w=900&t=st=1671755525~exp=1671756125~hmac=fd1a35ecdacf82252adbf1f42ec4c0db2bc3c76701b0a3bdf4939bea3cd27f3c"  )
+     ;background-repeat: no-repeat;
+    
+     background-size: cover;
+     height: 100%;
+     
+
+ }
+ 
+ ul  {
+    padding: 43px;
+    display: flex;
+    float:right;
+    list-style-type: none;
+    color: black;
+    size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 10rem;
+    
+}
+/* input:required {border : 2px solid red ; }
+	input:optional {border : 1px solid black ; }
+	input:valid {color : green ; }
+	input:invalid {color : red ;} */
+.title{display: flex;
+    justify-content: flex-end;}
+img{
+    border-radius: 3px;
+    height: 30rem;
+    width: 37rem;
+    margin-left:23rem;
+}
+.link-promotion{
+   color: rgb(167, 122, 88);
+   margin-left: 700px; 
+   margin-top: 40px;
+  
+}
+.inscription button{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.inscription{
+    display: flex;
+    float:right;
+ 
+}
+a button{ margin-top: 200px;
+    width: 231px;
+    height: 79px;}
+.promotion{
+    text-align: center;
+   
+}
+.vid-promotion{
+       
+    margin-right: 700px; 
+}
+h1{ font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #141313;
+    margin-left: 38px;
+}
+.acceuil-title{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #131212;
+    margin-right: 40rem;
+}
+q{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.titre{display: flex;
+    margin-bottom: 70px;}
+.back{
+    font-size: 50px;
+    width: 500px;
+    color: black;
+    margin-left: 255px;
+}
+.title-inscription{
+    display: flex;
+
+}
+.inscrit{font-size: 100px;}
+.club{
+    border-radius: 50px;
+width: 200px;
+height: 154px;
+    margin-left: 42px;
+}
+.albums{display: flex;
+     justify-content: center;
+      align-items: center;
+      margin-top: 91px;
+      justify-content: flex-end;
+    }
+p{
+   
+    font-family: 'Amatic SC', cursive;
+    color:white;
+   
+    font-size: 25px;
+}
+ul li a{
+    margin-left: 68px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover {
+color: #100f0f;
+}
+td{border: solid #707975 1px;
+    font-weight: bold;
+    line-height: 35px;}
+    input{
+        border-radius: 5px;
+        height: 26px;
+    }
+
+form{
+        margin-top: 50px;
+        margin-left: 601px;
+    }
+    h2{
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 50px;
+
+        margin-top: 20rem;
+    }
+    .image1{
+        font-size: larger;
+        margin-right: 10rem;
+
+         border-radius: 20px;
+          
+    }
+    

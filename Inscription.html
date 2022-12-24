@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+     
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    rel="stylesheet"/>
+
+</head>
+<body>
+    <div  class="titre">    
+        <a class="back" href= "Acceuil.html"> <i class="far fa-hand-point-left back"></i></a>
+          <h1 >Bienvenue sur la page d'inscription</h1>
+        
+   </div>
+ 
+    <div class="inscription">
+
+        <button type="button" class="btn btn-outline-primary">Sign In</button>
+        <button type="button" class="btn btn-outline-primary">Sign Out</button>
+
+    </div>
+    <div>
+    <div class="col-sm-12">
+    <form method="get" action="index.html">
+           <p>Remplir Formulaire  <i class="fas fa-edit"></i></p>
+           <q>* champ obligatoire</q>
+           <table>
+               <tr>
+                   <div>
+                   <td rowspan="8"> Fiche Personnelle</td> </div>
+                   <div> <td>* Nom <i class="fas fa-user"></i></td>
+                    <td><input type="text" name="name" required
+                        maxlength="20" ></td>
+                    <tr>
+                    <td>* Prénom </i></td>
+                    <td><input type="text" name="prénom"  required maxlength="20"></td>
+                </tr>
+                    <tr>
+                    <td>* Date de naissance <i class="fas fa-birthday-cake"></i></i></td>
+                    <td><input type="date"  min="2002-01-01"  required name="date"></td>
+                </tr>
+                <tr>
+                    <td>Sexe</td>
+                    <td>
+                    <input type="radio" id="femme" name="gender" value="femme">
+                    <label for="Femme">Fille</label>
+                    <input type="radio" id="Homme" name="gender"  value="Homme">
+                    <label for="femme">garçon</label>
+                </td>
+                </tr>
+                </div>
+                   
+               </tr>
+               <tr>
+                   <td>* Adresse Mail <i class="fas fa-envelope-open-text"></i></td>
+                 
+                   <td>  <input type="email" id="email" name="email"   pattern=".+@gmail.com" required ></td>
+                   
+               </tr>
+               <tr>
+                   <td>Téléphone <i class="fas fa-phone-volume"></i></td>
+                  
+                   <td> <input type="tel" name="Téléphone"pattern = '[0-9]{8}' maxlength = "8"  ></td>
+               </tr> 
+              
+            <tr>
+                <td >Adresse <i class="fas fa-map-marker-alt"></i></td>
+                <td>
+                    <textarea   name="Adresse" rows="7" cols="40">
+         
+          </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Préférences</td>
+    
+            </tr>
+            <tr>
+                <td >choisisez  votre Style de Musique <i class="fas fa-music"></i></td>
+    <td style="line-height: 30px;">
+         <input type="checkbox" id="scales" name="scales" >
+         <label for="scales">Music education</label>
+         <input type="checkbox" id="scales" name="scales">
+         <label for="scales"> Music cartoon</label><br>
+         <input type="checkbox" id="scales" name="scales" >
+         <label for="scales">music activities</label>
+         <input type="checkbox" id="scales" name="scales">
+         <label for="scales">music games</label><br>
+         <input type="checkbox" id="scales" name="scales">
+         <label for="scales">music camp</label>
+         <input type="checkbox" id="scales" name="scales">
+         <label for="scales">music dance</label>
+    
+    </td>
+    
+    
+            </tr>
+            <tr>
+               <td rowspan="7">Information de Connexion</td></tr>
+            <tr>
+                <td>* Login <i class="fas fa-users-cog"></i></td>
+                <td><input type="text" name="Login" required ></td></tr>
+            <tr>
+                  <td>* Mot de passe <i class="fas fa-unlock-alt"></i></td>
+                  <td><input type="password" name="password"  required></td></tr>
+            <tr>
+                  <td>*Confirmation de mot de passe </td>
+                  <td><input type="password" name="password"  required></td></tr>
+                  <td><input type="submit" class="btn btn-success" name="envoyer" value="Envoyer" ></td>
+                  <td> <input type="reset" class="btn btn-warning"  name="reset"value="Annuler"></td>
+          
+           </table>
+       </form>
+       
+</div>
+
+    </div>
+  
+</body>
+
+</html>
